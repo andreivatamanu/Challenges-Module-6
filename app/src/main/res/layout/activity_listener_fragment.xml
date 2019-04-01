@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Challenge5.ListenerFragmentActivity">
+
+    <TextView
+        android:id="@+id/text_view_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_8_dp"
+        android:layout_marginLeft="@dimen/space_8_dp"
+        android:layout_marginTop="@dimen/space_8_dp"
+        android:layout_marginEnd="@dimen/space_8_dp"
+        android:layout_marginRight="@dimen/space_8_dp"
+        android:text="@string/sum_is"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/container_listener_fragment"
+        android:layout_width="@dimen/space_0_dp"
+        android:layout_height="@dimen/space_0_dp"
+        android:layout_marginStart="@dimen/space_8_dp"
+        android:layout_marginLeft="@dimen/space_8_dp"
+        android:layout_marginTop="@dimen/space_8_dp"
+        android:layout_marginEnd="@dimen/space_8_dp"
+        android:layout_marginRight="@dimen/space_8_dp"
+        android:layout_marginBottom="@dimen/space_8_dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_sum">
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

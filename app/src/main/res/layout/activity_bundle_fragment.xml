@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Challenge3.BundleFragmentActivity">
+
+    <EditText
+        android:id="@+id/edit_text_bundle_fragment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_16_dp"
+        android:layout_marginTop="@dimen/space_8_dp"
+        android:layout_marginEnd="@dimen/space_16_dp"
+        android:ems="10"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_bundle_fragment"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="@dimen/space_0_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_16_dp"
+        android:layout_marginTop="@dimen/space_8_dp"
+        android:layout_marginEnd="@dimen/space_16_dp"
+        android:onClick="sendEmailToFragmentOnClick"
+        android:text="@string/send_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_bundle_fragment" />
+
+    <FrameLayout
+        android:id="@+id/frame_layout_bundle_fragment"
+        android:layout_width="@dimen/space_0_dp"
+        android:layout_height="@dimen/space_0_dp"
+        android:layout_marginStart="@dimen/space_16_dp"
+        android:layout_marginTop="@dimen/space_16_dp"
+        android:layout_marginEnd="@dimen/space_16_dp"
+        android:layout_marginBottom="@dimen/space_16_dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_bundle_fragment" />
+
+</android.support.constraint.ConstraintLayout>

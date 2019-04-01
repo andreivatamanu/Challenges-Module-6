@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">HomeworkModule6</string>
+    <string name="title_activity_challenge1">Challenge1</string>
+    <string name="hello_from_hello_fragment">Hello from hello fragment</string>
+    <string name="error_first_number">Error first number</string>
+    <string name="error_second_number">Error second number</string>
+    <string name="text_can_be_null">EditText maybe is null :D</string>
+    <string name="fab_was_pressed">Fab was pressed</string>
+    <string name="fab_fragment">Fab fragment</string>
+    <string name="gallery_fragment">Gallery fragment</string>
+    <string name="import_fragment">Import fragment</string>
+    <string name="settings_fragment">Settings fragment</string>
+    <string name="share_fragment">Share fragment</string>
+    <string name="slideshow_fragment">Slideshow fragment</string>
+    <string name="tools_fragment">Tools fragment</string>
+    <string name="send_fragment">Send fragment</string>
+    <string name="movie">Movie</string>
+    <string name="pet">Pet</string>
+    <string name="food">Food</string>
+    <string name="favourite_movie">Favourite movie</string>
+    <string name="favourite_pet">Favourite pet</string>
+    <string name="favourite_food">Favourite food</string>
+    <string name="text">Text</string>
+    <string name="snowden">SNOWDEN</string>
+    <string name="snowden_content_description">Snowden content description</string>
+    <string name="food_content_description">Food content description</string>
+    <string name="bbq">BBQ</string>
+    <string name="fab_button_was_pressed">Fab button was pressed</string>
+    <string name="action">Action</string>
+    <string name="error_first_number">Error first number</string>
+    <string name="error_second_number">Error second number</string>
+    <string name="text_can_be_null">EditText maybe is null :D</string>
+    <string name="fab_was_pressed">Fab was pressed</string>
+    <string name="fab_was_selected">Fab was selected</string>
+    <string name="import_string">Import</string>
+    <string name="gallery">Gallery</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="error_second_number">Error second number</string>
+    <string name="text_can_be_null">EditText maybe is null :D</string>
+    <string name="fab_was_pressed">Fab was pressed</string>
+    <string name="send_email">SEND EMAIL</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="hello_from_bundle_fragment">Hello from bundle fragment</string>
+    <string name="name">name</string>
+    <string name="send_name">Send Name</string>
+    <string name="sum_is">Sum is:</string>
+    <string name="title_activity_navigation_app">NavigationApp</string>
+    <string name="fab_was_selected">Fab was selected</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+</resources>
